@@ -1,4 +1,5 @@
 <div>
+
     {{-- show preloader while fetching data in the background --}}
     <div class="hidden fixed top-8 left-1/2 -translate-x-1/2 z-50 animate-pulse"
          wire:loading>
@@ -83,6 +84,7 @@
             @endisset
         </x-slot>
         <x-slot name="footer"></x-slot>
+
     </x-dialog-modal>
     <x-tmk.livewire-log />
 </div>
